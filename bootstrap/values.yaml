@@ -5,11 +5,11 @@ storageClass: "do-block-storage"
 bots:
   enable: false
 guestbook:
-  enable: false
+  enable: true
 kyverno:
   enable: false  
 logging:
-  enable: false
+  enable: true
 observability:
   enable: false
   pdkey:
