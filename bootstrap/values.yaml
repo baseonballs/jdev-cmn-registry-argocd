@@ -3,7 +3,7 @@ domain:
 storageClass: "do-block-storage"
 # Application specific
 bots:
-  enable: false
+  enable: true
 guestbook:
   enable: true
 kyverno:
@@ -11,7 +11,7 @@ kyverno:
 logging:
   enable: true
 observability:
-  enable: false
+  enable: true
   pdkey:
   storageSize: 50Gi
   retention: 5d
