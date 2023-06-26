@@ -7,7 +7,7 @@ bots:
 guestbook:
   enable: true
 kyverno:
-  enable: false  
+  enable: true  
 logging:
   enable: true
 observability:
