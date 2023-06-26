@@ -35,8 +35,8 @@ logging:
 observability:
   enable: false
   pdkey:
-  storageSize: 50Gi
-  retention: 5d
+  storageSize: 100Gi
+  retention: 30d
 traefik:
   enable: true  
 trivy:
