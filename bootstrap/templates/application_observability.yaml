@@ -45,7 +45,7 @@ spec:
                       storage: {{ .Values.observability.storageSize }}
         grafana:
           service:
-            # type: LoadBalancer
+            type: LoadBalancer
           additionalDataSources:
             - name: loki
               type: loki
@@ -62,4 +62,6 @@ spec:
     automated:
       prune: true
       selfHeal: true
+  syncOptions:
+    - CreateNamespace=true
 {{- end }}

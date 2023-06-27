@@ -10,7 +10,7 @@ spec:
  project: default
  source:
   repoURL: 'https://github.com/baseonballs/jdev-cmn-registry-charts.git'
-  path: charts/guestbook
+  path: charts/sock-shop
   targetRevision: HEAD
   helm:
     valueFiles:

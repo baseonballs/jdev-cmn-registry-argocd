@@ -6,6 +6,8 @@ bots:
   enable: true
 guestbook:
   enable: true
+sockshop:
+  enable: true
 kyverno:
   enable: true  
 logging:
