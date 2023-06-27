@@ -9,7 +9,7 @@ metadata:
 spec:
  project: default
  source:
-  repoURL: 'https://github.com/baseonballs/jdev-cmn-registry-charts.git'
+  repoURL: 'https://github.com/baseonballs/jdev-cmn-registry-charts'
   path: charts/sock-shop
   targetRevision: HEAD
   helm:
