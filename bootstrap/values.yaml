@@ -15,9 +15,13 @@ logging:
 observability:
   enable: true
   pdkey:
-  storageSize: 100Gi
-  retention: 30d
+  storageSize: 10Gi
+  retention: 7d
 traefik:
   enable: true  
 trivy:
   enable: true
+foundation:
+  components:
+    monitor: true
+
