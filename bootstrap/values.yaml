@@ -11,7 +11,7 @@ sockshop:
 kyverno:
   enable: true  
 logging:
-  enable: true
+  enable: false
 observability:
   enable: false
   pdkey:
