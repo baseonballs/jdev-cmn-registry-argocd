@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: bootstrap
-    repoURL: https://github.com/baseonballs/jdev-cmn-registry-argocd
+    repoURL: https://github.com/baseonballs/jdev-cmn-registry-argocd.git
     targetRevision: HEAD
   syncPolicy:
     automated:
