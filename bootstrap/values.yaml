@@ -9,7 +9,7 @@ guestbook:
 sockshop:
   enable: false
 kyverno:
-  enable: true  
+  enable: false  
 logging:
   enable: false
 observability:
