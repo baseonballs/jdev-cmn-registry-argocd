@@ -1,6 +1,7 @@
 # Global
 domain: 
 storageClass: "do-block-storage"
+project-scope: "peng-infra-foundation"
 # Application specific
 bots:
   enable: false
