@@ -3,24 +3,24 @@ domain:
 storageClass: "do-block-storage"
 # Application specific
 bots:
-  enable: true
+  enable: false
 guestbook:
-  enable: true
+  enable: false
 sockshop:
-  enable: true
+  enable: false
 kyverno:
   enable: true  
 logging:
   enable: true
 observability:
-  enable: true
+  enable: false
   pdkey:
   storageSize: 10Gi
   retention: 7d
 traefik:
-  enable: true  
+  enable: false  
 trivy:
-  enable: true
+  enable: false
 foundation:
   components:
     monitor: true
