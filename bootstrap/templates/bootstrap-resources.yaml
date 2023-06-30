@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: bootstrap/bootstrap-resources
-    repoURL: https://github.com/baseonballs/jdev-peng-gitops-argocd-apps-base
+    repoURL: https://github.com/baseonballs/jdev-peng-registry-apps
     targetRevision: HEAD
     helm:
       parameters:
