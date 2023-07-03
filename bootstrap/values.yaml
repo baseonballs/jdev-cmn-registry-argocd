@@ -1,7 +1,6 @@
 # Global
 domain: 
 storageClass: "do-block-storage"
-project-scope: "peng-infra-foundation"
 # Application specific
 bots:
   enable: false
@@ -10,19 +9,16 @@ guestbook:
 sockshop:
   enable: false
 kyverno:
-  enable: false  
+  enable: true  
 logging:
-  enable: false
+  enable: true
 observability:
   enable: false
   pdkey:
   storageSize: 10Gi
   retention: 7d
 traefik:
-  enable: false  
+  enable: true  
 trivy:
   enable: false
-foundation:
-  components:
-    monitor: false
 
