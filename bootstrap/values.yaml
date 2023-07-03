@@ -24,5 +24,5 @@ trivy:
   enable: false
 foundation:
   components:
-    monitor: true
+    monitor: false
 
