@@ -13,7 +13,7 @@ variable "doks_cluster_name_prefix" {
 
 variable "doks_k8s_version" {
   type        = string
-  default     = "1.25"
+  default     = "1.27.2-do.0"
   description = "DOKS Kubernetes version"
 }
 
@@ -27,8 +27,11 @@ variable "doks_default_node_pool" {
   type = map(any)
   default = {
     name       = "bootstrapper-default"
-    node_count = 2
+    node_count = 3
     size       = "s-2vcpu-4gb"
+    auto_scale = true
+    min_nodes = 3
+    max_nodes = 5
   }
   description = "DOKS cluster default node pool configuration"
 }
@@ -39,10 +42,16 @@ variable "doks_additional_node_pools" {
   description = "DOKS cluster extra node pool configuration"
 }
 
-# ===================== DOKS CONFIG VARS =======================
+# ===================== DOCR CONFIG VARS =======================
 variable "container_registry" {
   type    = string
   default = "bootstrapper-cr"
+}
+
+variable "enable_container_registry" {
+  type        = bool
+  default     = false
+  description = "Enable/disable DigitalOcean Container Registry"
 }
 
 # ===================== ARGOCD HELM CONFIG VARS =======================
